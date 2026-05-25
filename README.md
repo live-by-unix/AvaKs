@@ -16,7 +16,7 @@ AvaKs is a lightweight cross-platform filesystem indexing and monitoring daemon 
 
 ## Build
 ```bash
-git clone https://github.com
+git clone https://github.com/live-by-unix/avaks.git
 cargo build --release
 ```
 
