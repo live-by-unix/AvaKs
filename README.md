@@ -1,8 +1,8 @@
-AvaKs
+# AvaKs
 
 AvaKs is a lightweight cross-platform filesystem indexing and monitoring daemon written in Rust.
 
-Features
+## Features
 
 - Full filesystem crawl
 - Real-time filesystem monitoring
@@ -14,35 +14,36 @@ Features
 - Linux/macOS/Windows support
 - Single-file implementation
 
-Build
+## Build
 
+git clone https://github.com
 cargo build --release
 
-Run
+## Run
 
 cargo run --release
 
-Commands
+## Commands
 
 avaks help
 avaks version
 avaks run
 
-API
+## API
 
 GET /fuzzy/<query>
 GET /file/<path_or_id>
 GET /events?from=0&to=9999999999
 GET /alerts/recent
 
-Database
+## Database
 
 ~/.avaks/index.db
 
-Logs
+## Logs
 
 ~/.avaks/logs/
 
-License
+## License
 
 BSD 3-Clause License
