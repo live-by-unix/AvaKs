@@ -15,19 +15,22 @@ AvaKs is a lightweight cross-platform filesystem indexing and monitoring daemon 
 - Single-file implementation
 
 ## Build
-
+```bash
 git clone https://github.com
 cargo build --release
+```
 
 ## Run
-
+```bash
 cargo run --release
+```
 
 ## Commands
-
+```bash
 avaks help
 avaks version
 avaks run
+```
 
 ## API
 
@@ -37,12 +40,14 @@ GET /events?from=0&to=9999999999
 GET /alerts/recent
 
 ## Database
-
+```text
 ~/.avaks/index.db
+```
 
 ## Logs
-
+```text
 ~/.avaks/logs/
+```
 
 ## License
 
